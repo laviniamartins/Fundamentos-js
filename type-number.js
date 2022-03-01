@@ -82,7 +82,14 @@ Math.ceil() que retorna o maior número inteiro que é maior que o número passa
 por exemplo Math.ceil(11.123), o valor fica 12
 
 Math.floor() que retorna o menor número inteiro que é menor que o número passado, 
-por exemplo Math.floor(11.789), o valor fica 11
+por exemplo Math.floor(11.789), o valor fica 11.
+
+No caso de números, é possível salvar em uma variável não somente o número em si, 
+como em const num = 5;, mas também o resultado de uma operação (ou mais):
+const soma = 10 + 10;
+const multiplicacao = 10 * 10;
+const operacao = (soma + multiplicacao) + 10;
+
 */
 
 // tipo Number
